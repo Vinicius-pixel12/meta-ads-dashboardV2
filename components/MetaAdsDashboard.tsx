@@ -54,7 +54,7 @@ export default function MetaAdsDashboard() {
   });
 
   // URL base do webhook (substitua pela sua URL do n8n)
-  const WEBHOOK_BASE_URL = 'https://seu-n8n-instance.com/webhook';
+  const WEBHOOK_BASE_URL = webhookUrl;
 
   // Função para abrir BigSpy em nova aba
   const abrirBigSpy = () => {
